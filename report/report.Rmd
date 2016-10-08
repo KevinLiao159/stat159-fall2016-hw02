@@ -29,6 +29,12 @@ To estimate the coefficients $\beta_{0}$ and $\beta_{1}$ we fit a regression mod
   
 # Results
 
+```{r}
+load("../data/regression.RData")
+
+```
+
+
 We compute the regression coefficients
 
 Table 1: Information about Regression Coefficients
