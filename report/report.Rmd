@@ -49,7 +49,7 @@ Residual Standard Error| 3.259
 R-squared              | 0.612
 F-statistic            | 312.14
 
-![Figure 1: Scatter Plot with fitted Regression Line](../images/scatterplot-tv-sales.png)
+![Figure 1: Scatter Plot with fitted Regression Line](https://raw.githubusercontent.com/KevinLiao159/stat159-fall2016-hw02/master/images/scatterplot-tv-sales.png)
 Figure 1: Scatter Plot with fitted Regression Line
 
 # Conclusions
