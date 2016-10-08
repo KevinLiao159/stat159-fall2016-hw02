@@ -30,7 +30,9 @@ To estimate the coefficients $\beta_{0}$ and $\beta_{1}$ we fit a regression mod
 # Results
 
 ```{r}
+# All the numbers couuld be retrieved from regression.RData
 load("../data/regression.RData")
+regression$coefficients
 
 ```
 
