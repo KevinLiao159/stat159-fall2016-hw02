@@ -7,9 +7,8 @@ data:
 	curl -O http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv > data
 
 report/report.pdf: report/report.Rmd data/regression.RData images/scatterplot-tv-sales.png
-	cd report && Rscript -e “library(rmarkdown); render(‘report.Rmd’)”
-	#cd report && pandoc report.Rmd -o report.pdf
-	#pandoc -s report/report.Rmd -o report/report.pdf
+	cd report && Rscript -e 'library(rmarkdown); render("report.Rmd","pdf_document")'
+
 
 data/regression.RData: code/regression-script.R data/Advertising.csv
 	cd code && Rscript regression-script.R
