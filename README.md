@@ -21,6 +21,55 @@ Table of Contents:
 * Results
 * Conclusions
 
+### File Structure
+
+The file-structure for this assignment is the following:
+
+```
+stat159-fall2016-hw02/
+	.gitignore
+	README.md
+	Makefile
+	data/
+	  README.md
+	  Advertising.csv
+	  eda-output.txt
+	  regression.RData
+	code/
+	  README.md
+	  eda-script.R
+	  regression-script.R
+	images/
+		histogram-sales.png
+		histogram-sales.pdf
+		histogram-tv.png
+		histogram-tv.pdf
+		scatterplot-tv-sales.png
+		scatterplot-tv-sales.pdf
+	report/
+		report.Rmd
+		report.pdf
+```
+
+### How to reproduce the project
+If you want to reproduce the results represented in this project (images, dataset, report etc), one simply clone the repository (download zip file) and run the make file with command
+> make
+
+If you would like to reproduce a specific part of the project (e.g. data), run the corresponding command line in the terminal
+> make data
+
+If you would like to remove the report, run the following command line
+> make clean
+
+the following is a complete list of make commands for phony targets:
+* make all 
+* make data 
+* make data/eda-output.txt
+* make data/regression.RData
+* make report/report.pdf
+* make clean
+
+
 
 ### LICENSE
 
